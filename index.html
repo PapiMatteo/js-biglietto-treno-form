@@ -4,11 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- Custom style -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
+    <section class="form-section text-center mt-3">
+        <h1 class="ms_title py-5">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+
+        <div class="ms_container py-5 d-flex flex-wrap justify-content-center">
+            <div class="ms_input-item">
+                <label class="ms-5" for="name">Nome Cognome</label>
+                <input type="text" id="name">
+            </div>
+
+            <div class="ms_input-item">
+                <label class="ms-5" for="distance">Km da percorrere</label>
+                <input type="number" id="distance">
+            </div>
+
+            <div class="ms_input-item">
+                <label class="ms-5" for="age">Fascia d'età</label>
+                <select id="age">
+                    <option value="minor">Minorenne</option>
+                    <option value="adult">Maggiorenne</option>
+                    <option value="old">Over 65</option>
+                </select>
+            </div>
+            
+            <div class="ms_button pt-5">
+                <button id="send">Invia</button>
+                <button class="ms-3" id="clear">Annulla</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="result-section text-center mt-5">
+        <h1 class="ms_title">IL TUO BIGLIETTO</h1>
+        <div class="ms_container ms_result-container py-4">
+            <h3 class="pb-4">DETTAGLI PASSEGGERI</h3>
+            <table class="w-100">
+                <thead>
+                    <tr>
+                        <th >NOME PASSEGGERO</th>
+                        <th>OFFERTA</th>
+                        <th>COSTO BIGLIETTO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="user-name"></td>
+                        <td id="user-age"></td>
+                        <td id="ticket-price"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 
     <!-- JS Script -->
     <script src="js/script.js"></script>

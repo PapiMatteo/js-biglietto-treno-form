@@ -1,0 +1,15 @@
+/* COMMON */
+.ms_container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 2rem;
+}
+/* Layout */
+body {
+    background-color: red;
+}
+
+.ms_result-container {
+    min-height: 300px;
+}
