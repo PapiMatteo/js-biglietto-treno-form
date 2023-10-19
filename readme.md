@@ -13,3 +13,29 @@ Iniziamo implementando il programma senza alcuna estetica: usando esclusivamente
 ### MILESTONE 2:
 Solo una volta che il milestone 1 sarà completo e funzionante allora realizzeremo un form in pagina in cui l’utente potrà inserire i dati e visualizzare il calcolo finale con il prezzo.
 Il recap dei dati e l'output del prezzo finale, andranno quindi stampati in pagina (il prezzo dovrà essere formattato con massimo due decimali, per indicare i centesimi sul prezzo).
+
+### SVOLGIMENTO
+
+Fare struttura HTML
+
+JS All'interno event listener al click di INVIA:
+
+#### Raccolta Dati
+
+1. Prelevare nome utente dall'input
+2. Prelevare distanza da percorrere dall'input
+2. Prelevare l'eta' dell'utente dal select
+
+#### Logica
+
+1. Preparare il testo del messaggio da andare a schermo
+
+#### Output 
+
+1. Stampare il messaggio nell'elemento del risultato in HTML 
+
+#### Cancellare tramite ANNULLA
+
+1. Cancellare dati dall'input
+2. Cancellare il messaggio nell'elemento HTML
+3. Nascondere la sezione del risultato 
