@@ -27,8 +27,8 @@ JS All'interno event listener al click di INVIA:
 2. Prelevare l'eta' dell'utente dal select
 
 #### Logica
-
-1. Preparare il testo del messaggio da andare a schermo
+1. Effettuare calcoli di sconti
+2. Preparare il testo del messaggio da mandare a schermo
 
 #### Output 
 

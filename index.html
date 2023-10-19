@@ -28,9 +28,10 @@
             <div class="ms_input-item">
                 <label class="ms-5" for="age">Fascia d'età</label>
                 <select id="age">
-                    <option value="minor">Minorenne</option>
-                    <option value="adult">Maggiorenne</option>
-                    <option value="old">Over 65</option>
+                    <option value=""></option>
+                    <option id="minor" value="minor">Minorenne</option>
+                    <option id="adult" value="adult">Maggiorenne</option>
+                    <option id="old" value="old">Over 65</option>
                 </select>
             </div>
             
@@ -43,8 +44,8 @@
 
     </section>
 
-    <section class="result-section text-center mt-5">
-        <h1 class="ms_title">IL TUO BIGLIETTO</h1>
+    <section class="result-section text-center mt-5 d-none">
+        <h1 class="ms_title py-5">IL TUO BIGLIETTO</h1>
         <div class="ms_container ms_result-container py-4">
             <h3 class="pb-4">DETTAGLI PASSEGGERI</h3>
             <table class="w-100">
